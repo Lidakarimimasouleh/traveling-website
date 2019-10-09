@@ -1,0 +1,460 @@
+/* affects all parts*/
+.body p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+/*Quynh's part*/
+#body {
+  width: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header img, .navigation ul, .navigation li {
+  display: inline;
+}
+
+.header img{
+  padding-left: 40px;
+}
+
+.navi1 a {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 170%;
+  position: relative;
+  left: 750px;
+  top: -35px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.header {
+  margin-top: 10px;
+}
+
+.header-image {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("img/header-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(55%);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: -25px;
+}
+
+.title h1 {
+  font-style: bold;
+  font-size: 425%;
+  word-spacing: 3px;
+  letter-spacing: 7px;
+  color: white;
+  width: 1280px;
+  text-align: center;
+  position: absolute;
+  top: 290px;
+}
+
+.title p {
+  font-size: 120%;
+  width: 1280px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 432px;
+}
+
+.title img{ width:55px;
+  height:55px;
+position:absolute;
+top:600px;
+left:615px;}
+
+
+.discover {
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-size:13px;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  width: 1280px;
+  text-align: center;
+}
+
+.list-1{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+div.list-1{
+  padding-bottom:0px;
+}
+
+.row-img-1, .row-img-2, .row-img-3 {
+  width: 384px;
+  height: 288px;
+  object-fit:cover;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container-1, .container-2, .container-3 {
+  width: 384px;
+  height: 130px;
+  position:relative;
+  left:20px;
+  top:-138px;
+  background-color: #3E4140;
+  opacity: 0.5;
+  filter: alpha(opacity:50);
+  z-index:1;
+}
+
+.list-1 p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.list-1 h3 {
+  margin-bottom: -10px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.1em;
+
+}
+
+.text-1, .text-2, .text-3 {
+  color: white;
+  width: 384px;
+  text-align: center;
+  position: relative;
+  top: -260px;
+  left: 20px;
+  z-index:2;
+  opacity:0.6;
+  filter:alpha(opacity:60);
+}
+.text-1 a, .text-2 a, .text-3 a{
+  color:white;
+  text-decoration:none;}
+  .place-1{
+    width:33%;
+    padding-left: 3px;
+  }
+  .place-2{
+    width:33%;
+      padding-left:3px;
+  }
+  .place-3{
+    width:33%;
+    padding-left:3px;
+  }
+
+/*Quynh's part*/
+
+/*Lida's Orange*/
+/* This one is for the orange part*/
+/* you can omit the font family if you have another one - this font family that I have written shows the priorities, if the browser can not read the first one, then its go to the next*/
+
+#featured-article {
+  background-color: #ff8947;
+}
+
+#featured-article img {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+#how-to-pack{
+  color: white;
+  height: auto;
+  padding-top: 150px;
+  padding-left: calc(50% + 100px);
+  padding-right: 50px;
+  display: block;
+  text-indent: center;
+  margin-right: 0;
+}
+#how-to-pack a{
+  color:white;
+  text-decoration:none;}
+
+#how-to-pack p {
+  padding-right: 80px;
+}
+#how-to-pack h2{ font-style:bold;}
+
+/* Clearfix is to adjusting pictures beside text, do not clean*/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+/*edited*/
+#lida-1{
+  position:relative;
+  top:-120px;
+}
+
+/* This is end of Lida's orange part*/
+
+/*Abimbola*/
+.list-2 {
+  margin-left:55px;
+  margin-right:0px;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.choice {
+  width: 32.5%;
+  padding:3px;
+}
+
+.choice img {
+  width: 355px;
+  height: 288px;
+  object-fit:cover;
+  box-shadow:5px 5px 10px gray;
+}
+
+.choice p{
+  width:355px;
+  margin-bottom: 6px;
+}
+.choice {
+  margin-bottom: 30px;
+}
+#latest-blog-post {
+  letter-spacing:2px;
+  word-spacing:3px;
+  width:1280px;
+  text-align:center;
+  font-size:20px;
+  font-weight: 900;
+  position:relative;
+  top:-20px;
+}
+
+.choice p {
+  font-size: 16px
+}
+.link-1{
+  text-decoration:none;
+  color:red;
+
+}
+
+/*Abimbola End*/
+
+
+
+
+/*Lida 2*/
+
+
+#featured-article1{
+  background-color: #7a7978;
+  padding-top: 100px;
+  padding-bottom:0px;
+  text-align: center;
+  padding-left: 90px;
+  padding-right: calc(50% + 80px);
+  display: block;
+}
+#featured-article1{
+  font-style:bold;
+}
+
+
+#tiger img {
+  float: right;
+  width:50%;
+  height:800px;
+  object-fit:contain;
+  height:auto;
+}
+
+#featured-article1 a {
+  color:#000000;
+}
+
+
+.clearfix:after {
+  visibility:hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height:0;
+}
+
+#tiger{
+  position:relative;
+  top:20px;
+}
+
+/*Lida 2 End*/
+/*Laura*/
+html, body { height:100%; width:100%; margin:0; padding:0; }
+
+div.laura {
+  width:100%;
+  height:100vh;
+  margin:0; padding:0; border:0;
+  position:relative;
+  top:110px;
+}
+
+.one {
+  background-image: url("img/geneva-greenhouse.jpg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: 100% 100%;
+  width: 33.33%;
+  height: 100vh;
+  float:left;
+}
+
+h1.greenhouse-tours-title {
+    text-align: left;
+    position: relative;
+    top: 25%;
+    color: #003300;
+    padding-left: 30px;
+    font-size: 3em;
+    font-style: bold;
+    font-family: arial;
+    font-weight: 700;
+  }
+
+  p.greenhouse-tours-paragraph {
+    text-align: left;
+    position: relative;
+    top: 25%;
+    padding: 0px 30px;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+
+.two {
+  background-color: white;
+  display: inline-block;
+  width: 33.33%;
+  height: 100vh;
+  position: relative;
+  float:left;
+}
+
+.three {
+  width:33.33%;
+  height:100vh;
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  margin:0;
+  border:0;
+}
+
+.threeA {
+  /* display: inline-block; */
+  background-size: 100% 100%;
+  background-color: #003300;
+  width:100%;
+  height:50vh;
+  float:left;
+}
+p.link {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+  position: relative;
+  top: 35%;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-decoration: underline;
+  z-index: 1;
+}
+.link a{
+  color:white;}
+
+.threeB{
+  background-image: url("img/kew-gardens.jpg");
+  /* filter: brightness(70%); how to filter image without filtering the text?*/
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* display: inline-block; */
+  width:100%;
+  height:50vh;
+  position: relative;
+  float:left;
+}
+
+.footer{
+  height: 80px;
+  width: 100%;
+  background-color:#D3D3D3;
+  display: inline-block;
+  /*padding-left: 5%;*/
+  font-family: 'Open Sans', sans-serif;
+  position:relative;
+  top:100px;
+  clear:both;
+}
+
+.footer-left a, .footer-center a, .footer-right p {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-right p{
+  padding-right: 20px;
+  font-weight: 1000;
+  margin-bottom: 0px;
+}
+
+.footer-left li {display:inline;
+padding: 3px;}
+
+ul.footer-left, ul.footer-center{
+  list-style-type: none;
+}
+
+
+div.footer-left, div.footer-center, div.footer-right{
+  top: 10px;
+  width:33%;
+  position:relative;
+  display:inline-block;
+  float:left;
+}
+
+div.footer-center{
+  left:100px;
+}
+
+.footer-center li{
+  display: inline-block;}
+
+div.footer-right{
+    text-align: right;
+  }
+
+div.footer-right{
+  position:relative;
+  right:150px;}
+
+div.footer-right input{
+  position:relative;
+  right:20px;
+}
+
+/*Laura end*/
